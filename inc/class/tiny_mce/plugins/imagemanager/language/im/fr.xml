@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<language-pack>
+	<header>
+		<author>Francis THOMAS (frato@lecentre.net)</author>
+		<version minor="1" major="0" releasedate="2007-06-12" />
+		<description>
+			This is the french language pack for the MCImageManager.
+		</description>
+	</header>
+
+	<language code="fr" title="Francais" dir="ltr">
+		<group target="common">
+			<item name="title">Moxiecode Gestionnaire d'images</item>
+			<item name="filemanager">Gestionnaire d'images</item>
+			<item name="createdir">Cr�er dossier</item>
+			<item name="refresh">Rafra�chir</item>
+			<item name="upload">Uploader une image</item>
+			<item name="help">Aide</item>
+			<item name="edit">Modifier</item>
+			<item name="deleteit">Supprimer</item>
+			<item name="view">Afficher</item>
+			<item name="insert">Ins�rer</item>
+			<item name="add_favorite">Ajouter aux favoris</item>
+			<item name="directory">Dossier s�lectionn�</item>
+			<item name="removefavorite">Retirer des favoris</item>
+			<item name="loading">Chargement...</item>
+			<item name="filter">filtrer</item>
+			<item name="alert_ok">Ok</item>
+			<item name="confirm_yes">Oui</item>
+			<item name="confirm_no">Non</item>
+			<item name="prev">pr�c.</item>
+			<item name="next">suiv.</item>
+			<item name="image_data">R�cup�ration des informations de l'image, patientez...</item>
+		</group>
+		
+		<group target="button">
+			<!-- think about the length of the text -->
+			<item name="create">Cr�er</item>
+			<item name="cancel">Anuller</item>
+			<item name="apply">Valider</item>
+			<item name="save">Enregistrer</item>
+		</group>
+		
+		<group target="error">
+			<!-- common -->
+			<item name="demo">Action interdite en mode d�monstration.</item>
+			<item name="no_filesystem">Aucun fichier trouv� pour le chemin : {path}.</item>
+			<item name="no_access">Vous ne disposez pas des droits sur ce dossier/fichier.</item>
+			<item name="no_write_access">Vous ne disposez pas des droits en �criture sur ce dossier.</item>
+			<item name="file_not_exists">Le fichier/dossier n'a pas �t� trouv�.</item>
+			<item name="invalid_filename">Nom de fichier non valide.</item>
+			<item name="remove_favorite_failed">Impossible de supprimer le favoris de votre liste de favoris.</item>
+
+			<!-- create dir -->
+			<item name="template_missing">Le template s�lectionn� n'existe pas.</item>
+			<item name="folder_exists">Un dossier du m�me nom existe d�j�.</item>
+			<item name="createdir_failed">Erreur, impossible de cr�er le dossier.</item>
+
+			<!-- upload -->
+			<item name="upload_failed">Upload annul�e, v�rifiez les droits en �criture sur le dossier.</item>
+			<item name="file_exists">Un fichier du m�me nom existe d�j�.</item>
+			<item name="error_to_large">Le fichier que vous essayez de charger est trop volumineux.</item>
+
+			<!-- delete -->
+			<item name="delete_failed">Suppression impossible.</item>
+			
+			<!-- image edit -->
+			<item name="crop_failed">Erreur, recadrage impossible.</item>
+			<item name="resize_failed">Erreur, redimensionnement impossible.</item>
+			<item name="rotate_failed">Rotation impossible.</item>
+			<item name="flip_failed">Retournement impossible.</item>
+			<item name="save_failed">Enregistrement impossible.</item>
+		</group>
+		
+		<group target="message">
+			<!-- common -->
+			<item name="save_success">Fichier enregistr�.</item>
+			<item name="keepalive">Keepalive request.</item>
+
+			<!-- delete -->
+			<item name="delete_success">Fichier(s) supprim�(s).</item>
+
+			<!-- create dir -->
+			<item name="directory_ok">Le dossier a �t� cr��.</item>
+
+			<!-- upload -->
+			<item name="upload_ok">Upload termin�.</item>
+
+			<!-- image edit -->
+			<item name="crop_success">Recadrage termin�.</item>
+			<item name="resize_success">Redimensionnement termin�.</item>
+			<item name="rotate_success">Rotation termin�e.</item>
+			<item name="flip_success">Retournement termin�.</item>
+		</group>
+		
+		<group target="panel">
+			<item name="categories">Cat�gories</item>
+			<item name="folders">Dossiers</item>
+			<item name="favorites">Favoris</item>
+			<item name="history">Historique</item>
+		</group>
+		
+		<group target="view">
+			<item name="title">Affichage</item>
+			<item name="mode">Type d'affichage</item>
+			<item name="thumbnail">Vignette</item>
+			<item name="textlist">Liste</item>
+			<item name="images_per_page">images par page</item>
+			<item name="confirm_delete">Voulez-vous vraiment supprimer cette image ?</item>
+			<item name="keyboard_next">Suivant</item>
+			<item name="keyboard_prev">Pr�c�dent</item>
+			<item name="dimensions">Dimensions</item>
+			<item name="confirm_remove_favorite">Voulez-vous vraiment retirer cette image de vos favoris ?</item>
+		</group>
+				
+		<group target="createdir">
+			<item name="title">Cr�er dossier</item>
+			<item name="description">Ins�rez le nom du dossier � cr�er.</item>
+			<item name="template">Template :</item>
+			<item name="select_template">-- S�lection template --</item>
+			<item name="directory_name">Nom du dossier :</item>
+			<item name="create_in">Cr�er dans :</item>
+			<item name="progress">Cr�ation du dossier, patientez...</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">Upload</item>
+			<item name="description">Utilisez ce formulaire pour uploader vos fichiers.</item>
+			<item name="valid_extensions">Extensions valides :</item>
+			<item name="max_upload_size">Taille maximum :</item>
+			<item name="file_to_upload">Fichier � uploader :</item>
+			<item name="as_file_name">Nom de destination :</item>
+			<item name="path">Uploader dans :</item>
+			<item name="button_upload">Uploader</item>
+			<item name="browse">Parcourir</item>
+			<item name="progress">Upload en cours, patientez...</item>
+		</group>
+
+		<group target="edit_image">
+			<item name="title">Modification de l'image</item>
+			<item name="save">Sauver image</item>
+			<item name="revert">Revenir � la derni�re sauvegarde</item>
+			<item name="crop">Recadrer l'image</item>
+			<item name="resize">Redimensionner image</item>
+			<item name="please_wait">Traitement de l'image, patientez...</item>
+			<item name="constrain">Conserver les proportions</item>
+			<item name="left">g :</item>
+			<item name="top">h :</item>
+			<item name="width">L :</item>
+			<item name="height">H :</item>
+			<item name="save_as">Enregistrer sous</item>
+			<item name="flip">Inverser</item>
+			<item name="rotate">Rotation</item>
+			<item name="horizontal">Horizontal</item>
+			<item name="vertical">Vertical</item>
+			<item name="saving_wait">Sauvegarde de l'image, patientez...</item>
+			<item name="confirm_revert">Revenir � la derni�re sauvegarde ?</item>
+			<item name="loading">Chargement...</item>
+		</group>
+
+		<group target="tinymce">
+			<item name="insertimage_desc">Ins�rer image</item>	
+		</group>
+	</language>
+</language-pack>
